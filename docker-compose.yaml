@@ -9,7 +9,7 @@ services:
       - api
   api:
     restart: always
-    	container_name: backend1
+    container_name: backend1
     image: opemipo/hng-stage2:backend
     ports:
       - 3000:3000
